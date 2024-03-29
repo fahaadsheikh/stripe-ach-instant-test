@@ -1,0 +1,38 @@
+{
+	"useTabs": true,
+	"tabWidth": 2,
+	"semi": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"arrowParens": "always",
+	"htmlWhitespaceSensitivity": "strict",
+	"jsxBracketSameLine": false,
+	"bracketSpacing": true,
+	"printWidth": 150,
+	"endOfLine": "auto",
+	"quoteProps": "as-needed",
+	"insertPragma": false,
+	"jsxSingleQuote": false,
+	"proseWrap": "preserve",
+	"requirePragma": false,
+	"css": {
+		"indentTab": true,
+		"indentWidth": 2
+	},
+	"js": {
+		"useTabs": true,
+		"tabWidth": 2
+	},
+	"html": {
+		"useTabs": true,
+		"tabWidth": 2
+	},
+	"php": {
+		"useTabs": true,
+		"singleQuote": false,
+		"trailingComma": "none",
+		"printWidth": 120,
+		"braceStyle": "1tbs"
+	},
+	"ignore": ["**/*.min.js", "**/*.min.css", "**/*.min.html", "**/*.min.php"]
+}

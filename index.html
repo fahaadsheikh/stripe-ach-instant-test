@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bank Transfer Form</title>
+		<script src="https://js.stripe.com/v3/"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<h2>Bank Transfer Form</h2>
+			<form id="payment-form">
+				<div>
+					<label for="email">Name</label>
+					<input type="text" id="name" name="name" placeholder="Enter your name" required value="John Doe" />
+				</div>
+				<div>
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="Enter your email" required value="johndoe@email.com" />
+				</div>
+				<div>
+					<label for="bank-routing-number">Routing Number</label>
+					<input type="text" id="bank-routing-number" name="bank-routing-number" placeholder="Enter routing number" required value="110000000" />
+				</div>
+				<div>
+					<label for="bank-account-number">Account Number</label>
+					<input type="text" id="bank-account-number" name="bank-account-number" placeholder="Enter account number" required value="000123456789" />
+				</div>
+				<div>
+					<label for="account-type">Account Type</label>
+					<select id="account-type" name="account-type">
+						<option value="individual" selected>Individual</option>
+						<option value="company">Company</option>
+					</select>
+				</div>
+				<div id="error-message" style="color: red"></div>
+				<button type="submit">Submit Payment</button>
+			</form>
+		</div>
+	</body>
+</html>
